@@ -1,0 +1,61 @@
+body {
+  background-color: #D0E7D2;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #597E52;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 400px;
+  height: auto;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #D0E7D2;
+  color: #597E52;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #618264;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.lesson-content {
+  margin-bottom: 20px;
+}
+
+.comment-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#comments-section {
+  margin-top: 20px;
+}
