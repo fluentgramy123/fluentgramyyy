@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Page</title>
+    <link rel="stylesheet" href="c:\Users\lizab\Downloads\website to be pass\lessons\style.css">
+</head>
+<header>
+  <nav>
+      <ul>
+        <li><img src="c:\Users\lizab\Downloads\website to be pass\main\logo.png" class="logo"></li>
+        <li><a href="c:\Users\lizab\Downloads\website to be pass\main\index.html">Home</a></li>
+        <li><a href="c:\Users\lizab\Downloads\website to be pass\lessons\lessons.html">Lessons</a></li>
+        <li><a href="c:\Users\lizab\Downloads\website to be pass\quizzes\quizzes.html">Quizzes</a></li>
+        <li><a href="c:\Users\lizab\Downloads\website to be pass\announcements\announcements.html">Announcements</a></li>
+        <li><a href="c:\Users\lizab\Downloads\website to be pass\account\account.html">Account</a></li>
+        <li><a href="c:\Users\lizab\Downloads\website to be pass\inbox\index.html">Inbox</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="icons">
+  <div class="fas fa-user" id="login-btn"></div>
+  <div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+<body>
+    <!-- Lesson Content -->
+    <div class="lesson-content">
+        <h2>Lesson Title</h2>
+        <p>Lesson content goes here...</p>
+    </div>
+
+    <!-- Comment Box -->
+    <div class="comment-box">
+        <h3>Comments</h3>
+        <input type="text" id="comment" placeholder="Add a comment">
+        <button onclick="addComment()">Post Comment</button>
+        <div id="comments-section">
+            <!-- Comments will be displayed here -->
+        </div>
+    </div>
+
+    
+  <footer>
+    <p>&copy; 2024 Interactive Educational Website. All rights reserved.</p>
+  </footer>
+  
+    <script src="c:\Users\lizab\Downloads\website to be pass\lessons\script.js"></script>
+</body>
+</html>
